@@ -1,0 +1,95 @@
+## Descrição resumida do projeto
+
+No projeto, iremos criar um veículo sob rodas(Carrinho) utilizando o arduino UnoR3.
+Outros componentes: Driver duplo de ponte H; Suporte para pilhas AA; Bluetooth HC-05; 
+Jumpers; Buzze; DC motor.
+
+
+
+####Especifiações
+
+~~Arduino Uno:
+
+Características
+Microcontrolador	ATmega328
+Voltagem Operacional
+5V
+Voltagem de entrada (recomendada)
+7-12V
+Voltagem de entrada (limites)
+6-20V
+Pinos E/S digitais
+14 (dos quais 6 podems ser saídas PWM)
+Pinos de entrada analógica
+6
+Corrente CC por pino E/S	40 mA
+Corrente CC para o pino 3,3V	50 mA
+Flash Memory	32 KB (ATmega328) dos quais 0,5KB são utilizados pelo bootloader
+SRAM	2 KB (ATmega328)
+EEPROM	1 KB (ATmega328)
+Velocidade de Clock	16 MHz
+
+
+~~Ponte H L298N:
+
+ESPECIFICAÇÕES PONTE H L298N:
+Tensão de Operação: 4~35v
+Chip: ST L298N (Datasheet)
+Controle de 2 motores DC ou 1 motor de passo
+Corrente de Operação máxima: 2A por canal ou 4A max
+Tensão lógica: 5v
+Corrente lógica: 0~36mA
+Limites de Temperatura: -20 a +135°C
+Potência Máxima: 25W
+Dimensões: 43 x 43 x 27mm
+Peso: 30g
+
+~~Modulo Bluetooth HC05:
+
+Especificações:
+– Protocolo Bluetooth: v2.0+EDR
+– Firmware: Linvor 1.8
+– Frequência: 2,4GHz Banda ISM
+– Modulação: GFSK
+– Emissão de energia: <=4dBm, Classe 2
+– Sensibilidade: <=84dBm com 0,1% BER
+– Velocidade Assíncrono: 2,1Mbps(Max)/160Kbps
+– Velocidade Síncrono: 1Mbps/1Mbps
+– Segurança: Autentificação e Encriptação
+– Perfil: Porta Serial Bluetooth
+– Suporta modo Escravo (Slave) e Mestre (Master)
+– CSR chip: Bluetooth v2.0
+– Banda de Onda: 2,4Hhz-2,8Ghz, Banda ISM
+– Tensão: 3,3v (2,7-4.2v)
+– Corrente: Pareado 35mA; Conectado 8mA
+– Temperatura: -40 ~ +105°C
+– Alcance: 10m
+– Baud Rate: 4800;9600;19200;38400;57600;115200;230400;460800;921600;1382400
+– Dimensões: 26,9 x 13 x 2,2mm
+– Peso: 9,6g.
+
+~~Motor DC:
+
+- Tensão de operação: 3 a 5VDC;
+- RPM: 3000 (sem carga);
+- Consumo de corrente: 58 mA (com carga);
+- Temperatura de operação: -10 à 60°C;
+- Dimensões do motor: 24.5 x 12.5 mm;
+- Dimensões do eixo: 6.5 x 2 mm.
+
+~~Modulo Buzzer:
+
+CARACTERÍSTICAS:
+- Buzzer Passivo BP18;
+- Já integrado ao módulo;
+- Emissão de sinais em diferentes frequências;
+- Funciona como um alto-falante;
+- Compatível com Arduino, Raspberry Pi, AVR, PIC, AMR. etc. 
+- Perfuração para fixação.	
+
+ESPECIFICAÇÕES:
+- Modelo: BP18;
+- Tensão de trabalho :3.5-5V;
+- Corrente de trabalho: <25mA;
+- Dimensões (CxLxA): 32x13x10mm;
+- Peso: 3g.
